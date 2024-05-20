@@ -1,0 +1,128 @@
+body{
+    display: flex;
+    margin:0;
+    
+}
+.image{
+    flex:1 4 auto;
+    max-width: 40%;
+    overflow: hidden;
+    position:relative;
+}
+.main{
+    flex:4 1 auto;
+}
+#bg{
+    width: 100%;
+    height: 100vh;
+}
+.logoIcon{
+    width: 20%;
+    height: 92%;
+
+
+}
+.logoflex{
+    display: flex;
+    
+    max-width: 100%;
+
+
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: cursive;
+    font-size: 1.5em;
+    overflow: auto;
+
+}
+.logo{
+    position: absolute;
+    background-color: rgb(0 0 0 / 47%);
+    top: 40%;
+}
+.logoIcon img{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    background-color: rgb(236, 234, 234);
+}
+.box{
+    background-color: white;
+    box-shadow: 9px 15px 17px 0px #bbbbbb;
+    padding: 20px;
+}
+.header{
+    font-size: 1.2em;
+    font-family: fangsong;
+    padding: 40px;
+    padding-top: 80px;
+    font-weight: 800;
+    /* max-width: 87%; */
+    padding-right: 10px;
+}
+form legend{
+    font-size: 1.3em;
+    font-family: fangsong;
+
+    font-weight: 800;
+}
+fieldset{
+    padding:20px;
+    border:0px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    flex-direction: column;
+    gap: 5px;
+    font-family: cursive;
+    font-size: 1.2em;
+}
+.item input{
+    height: 24px;
+    border: 1px solid rgb(10, 153, 10);
+    border-radius: 5px;
+}
+
+.item input:valid{
+    outline:1px solid green;
+
+}
+.item input:invalid{
+    outline:1px solid red;
+}
+.item input:focus{
+    outline: 1px solid rgb(14, 98, 255);
+}
+.footer button{
+    background-color: #596D48;
+    color:white;
+    border:0px solid black;
+    border-radius:10px;
+    padding: 10px;
+    font-size: 1.1em;
+    font-family: cursive;
+
+}
+.footer{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1em;
+    font-family: cursive;
+
+    padding-bottom: 20px;
+}
+
+.footer a{
+    color:green;
+    text-decoration: none;
+}
